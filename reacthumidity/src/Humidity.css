@@ -20,13 +20,28 @@
 	border-radius:97% 97% 50% 50%;
 	z-index: 10;
 	transform: skewY(0deg) skewX(0deg);
+	overflow: hidden;
 }
+
+
+.waterLevel {
+	position: absolute;
+	height: 100%;  /*based on humidity reading*/
+	width: 100%;
+	background: #93f1fb;
+	bottom: 21%; 
+	-webkit-clip-path: polygon(0% 25%, 13% 15%, 26% 24%, 33% 15%, 42% 25%, 55% 14%, 64% 25%, 75% 14%, 84% 25%, 100% 14%, 99% 99%, 0% 99%);
+clip-path: polygon(0% 25%, 13% 15%, 26% 24%, 33% 15%, 42% 25%, 55% 14%, 64% 25%, 75% 14%, 84% 25%, 100% 14%, 99% 99%, 0% 99%);
+
+
+}
+
 
 .operations {
 	position: absolute;
 	width: 80%;
 	height: 30%;
-	background:#6BD6EC;
+	background:#f2f2f2;
 	border:solid 7px #004D7F;
 	bottom:5%;
 	left:15%;
@@ -35,18 +50,77 @@
 	overflow: hidden;
 }
 
+.dial {
+	position: absolute;
+	width: 25%;
+	height: 48%;
+	left:40%;
+	top:25%;
+	border-radius:50%;
+	background:#004D7F;
+}
+
+.dial-inner {
+	position: absolute;
+	background:#fff;
+	border-radius:50%;
+	left:10%;
+	top:10%;
+	width:80%;
+	height:80%;
+}
+
+.indicator {
+	position: absolute;
+	width: 20%;
+	height:20%;
+	background:#004D7F;
+	border-radius:50%;
+	left:40%;
+	top:40%;
+	transform:rotate(50deg);
+}
+
+.indicator::after {
+	content:"";
+	position: absolute;
+	background:#004D7F;
+	height:180%;
+	width:50%;
+	border-radius:50%;
+	bottom:20%;
+	left:25%;
+}
+
+.stat {
+	position: absolute;
+	font-size: 10px;
+	left: 39%;
+	top: 45%;
+}
+
+
+
 .base {
 	/*content:"";*/
 	position:absolute;
 	width:60%;
 	height:5%;
-	background:#CCEEF6;
+	background:#f2f2f2;
 	border:solid 7px #004D7F;
 	border-radius:0 0 20px 20px;
 	top: 93%;
 	left: 25%;
 	z-index: 10;
 }
+
+
+
+
+
+
+
+/*KEYFRAMES*/
 
 
 
