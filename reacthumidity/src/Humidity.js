@@ -15,7 +15,7 @@ const Humidity = ({humidity}) => {
 			</div>
 				<div className='operations'>
 					<Dial />
-						<Indicator />
+						<Indicator humidity={humidity}/>
 						<Stat humidity={humidity}/>
 				</div>
 				<div className='base'></div>

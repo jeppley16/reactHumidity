@@ -1,4 +1,4 @@
-.indicator {
+/*.indicator {
 	position: absolute;
 	width: 5%;
 	height:7%;
@@ -6,8 +6,8 @@
 	border-radius:50%;
 	left:50%;
 	top:45%;
-	transform:rotate(50deg);
-}
+	transform:rotate(90deg);
+}*/
 
 .indicator::after {
 	content:"";
@@ -19,3 +19,15 @@
 	bottom:20%;
 	left:25%;
 }
+
+
+/*
+position: 'absolute',
+width: '5%',
+height: '7%',
+background: '#004D7F',
+borderRadius: '50%',
+left: '50%',
+top: '45%',
+transform: `rotate(${percentage}deg)`
+*/
