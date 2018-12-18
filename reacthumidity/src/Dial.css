@@ -1,0 +1,22 @@
+.dial {
+	position: absolute;
+	width: 25%;
+	height: 48%;
+	left:40%;
+	top:25%;
+	border-radius:50%;
+	background:#004D7F;
+}
+
+.dial-inner {
+	position: absolute;
+	background:#fff;
+	border-radius:50%;
+	left:10%;
+	top:10%;
+	width:80%;
+	height:80%;
+}
+
+
+

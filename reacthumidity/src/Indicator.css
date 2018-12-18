@@ -1,0 +1,21 @@
+.indicator {
+	position: absolute;
+	width: 5%;
+	height:7%;
+	background:#004D7F;
+	border-radius:50%;
+	left:50%;
+	top:45%;
+	transform:rotate(50deg);
+}
+
+.indicator::after {
+	content:"";
+	position: absolute;
+	background:#004D7F;
+	height:180%;
+	width:40%;
+	border-radius:50%;
+	bottom:20%;
+	left:25%;
+}

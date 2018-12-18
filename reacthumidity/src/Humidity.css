@@ -24,17 +24,17 @@
 }
 
 
-.waterLevel {
+/*.waterLevel {
 	position: absolute;
-	height: 100%;  /*based on humidity reading*/
+	height: 100%;  based on humidity reading
 	width: 100%;
 	background: #93f1fb;
-	bottom: 21%; 
-	-webkit-clip-path: polygon(0% 25%, 13% 15%, 26% 24%, 33% 15%, 42% 25%, 55% 14%, 64% 25%, 75% 14%, 84% 25%, 100% 14%, 99% 99%, 0% 99%);
+	bottom: 21%;*/
+	/*-webkit-clip-path: polygon(0% 25%, 13% 15%, 26% 24%, 33% 15%, 42% 25%, 55% 14%, 64% 25%, 75% 14%, 84% 25%, 100% 14%, 99% 99%, 0% 99%);
 clip-path: polygon(0% 25%, 13% 15%, 26% 24%, 33% 15%, 42% 25%, 55% 14%, 64% 25%, 75% 14%, 84% 25%, 100% 14%, 99% 99%, 0% 99%);
 
 
-}
+}*/
 
 
 .operations {
@@ -50,7 +50,7 @@ clip-path: polygon(0% 25%, 13% 15%, 26% 24%, 33% 15%, 42% 25%, 55% 14%, 64% 25%,
 	overflow: hidden;
 }
 
-.dial {
+/*.dial {
 	position: absolute;
 	width: 25%;
 	height: 48%;
@@ -68,9 +68,9 @@ clip-path: polygon(0% 25%, 13% 15%, 26% 24%, 33% 15%, 42% 25%, 55% 14%, 64% 25%,
 	top:10%;
 	width:80%;
 	height:80%;
-}
+}*/
 
-.indicator {
+/*.indicator {
 	position: absolute;
 	width: 20%;
 	height:20%;
@@ -90,14 +90,14 @@ clip-path: polygon(0% 25%, 13% 15%, 26% 24%, 33% 15%, 42% 25%, 55% 14%, 64% 25%,
 	border-radius:50%;
 	bottom:20%;
 	left:25%;
-}
+}*/
 
-.stat {
+/*.stat {
 	position: absolute;
 	font-size: 10px;
 	left: 39%;
 	top: 45%;
-}
+}*/
 
 
 

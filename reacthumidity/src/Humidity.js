@@ -2,21 +2,21 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './Humidity.css';
 import 'tachyons';
+import Waterlevel from './Waterlevel';
+import Dial from './Dial';
+import Indicator from './Indicator';
+import Stat from './Stat';
 
 const Humidity = ({humidity}) => {
 	return (
 		<div className='humidifier'>
 			<div className='tank'>
-				<div className='waterLevel'></div>
+				<Waterlevel />
 			</div>
 				<div className='operations'>
-					<div className='dial tc'>
-						<div className='dial-inner'></div>
-						<div className='indicator'></div>
-						<div className='stat'>
-							<p>{humidity * 100 + '%'}</p>
-						</div>
-					</div>
+					<Dial />
+						<Indicator />
+						<Stat humidity={humidity}/>
 				</div>
 				<div className='base'></div>
 		</div>
@@ -24,3 +24,5 @@ const Humidity = ({humidity}) => {
 }
 
 export default Humidity;
+
+
