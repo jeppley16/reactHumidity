@@ -5,9 +5,11 @@ import 'tachyons';
 
 
 const Stat = ({humidity}) => {
+
+	const percentage = humidity * 100 + '%';
 	return(
 		<div className='stat'>
-			<p>{humidity * 100 + '%'}</p>
+			<p>{percentage}</p>
 		</div>
 		)
 }

@@ -2,7 +2,7 @@ export const cities = [
 	{
 		id: 1,
 		city: 'Swampscott',
-		humidity: 0.45
+		humidity: 0.25
 
 	},
 	{

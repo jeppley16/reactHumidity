@@ -11,7 +11,7 @@ const Humidity = ({humidity}) => {
 	return (
 		<div className='humidifier'>
 			<div className='tank'>
-				<Waterlevel />
+				<Waterlevel humidity={humidity}/>
 			</div>
 				<div className='operations'>
 					<Dial />
