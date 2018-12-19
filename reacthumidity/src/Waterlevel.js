@@ -7,7 +7,7 @@ const Waterlevel = ({humidity}) => {
 
 	const percentage = humidity * 100 + '%';
 	return (
-		<div className='waterLevel' 
+		<div className='waterLevel fade-in one' 
 			style={{
 				height: `${percentage}`,
 				width: '100%',

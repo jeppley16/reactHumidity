@@ -6,6 +6,7 @@ import Waterlevel from './Waterlevel';
 import Dial from './Dial';
 import Indicator from './Indicator';
 import Stat from './Stat';
+// import Air from './Air';
 
 const Humidity = ({humidity}) => {
 	return (
